@@ -1,3 +1,26 @@
 body {
-  background-color: black;
+  margin: 0;
+}
+
+.nav-container {
+  height: 50px;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  position: absolute;
+  top: 70px;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+}
+
+.first-section-parent {
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
+  position: relative;
 }
