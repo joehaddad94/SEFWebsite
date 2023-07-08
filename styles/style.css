@@ -545,6 +545,7 @@ body {
   align-self: stretch;
   margin-top: auto;
   display: flex;
+  gap: 15px;
 }
 
 .date-section {
@@ -560,6 +561,7 @@ body {
   color: #fcfcfd;
   text-align: left;
   font-family: Noto Sans Mono, sans-serif;
+  background-color: #232323;
 }
 
 .date {
@@ -570,13 +572,13 @@ body {
 }
 
 .learn-more {
+  width: 100%;
   text-decoration: none;
-  display: inline-block;
   padding: 15px 20px;
   text-transform: uppercase;
   color: #fcfcfd;
   text-align: right;
-  margin-left: auto;
   font-weight: 900;
   font-family: Noto Sans Mono, sans-serif;
+  background-color: #232323;
 }
