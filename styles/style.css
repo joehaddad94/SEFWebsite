@@ -18,14 +18,19 @@ body {
   margin: auto;
 }
 
-.first-section-parent {
+.logo-img {
+  height: 100%;
+  width: auto;
+}
+
+.welcome-parent {
   height: 100vh;
   min-height: 100%;
   display: flex;
   position: relative;
 }
 
-.left-first-section {
+.left-welcome {
   background-color: rgba(40, 238, 167, 0.93);
   background-image: linear-gradient(
       rgba(40, 238, 167, 0.93),
@@ -36,7 +41,6 @@ body {
   height: 100%;
   background-position: 50%;
   background-clip: border-box;
-  -webkit-text-fill-color: inherit;
   background-size: cover;
   justify-content: flex-end;
   align-self: auto;
@@ -47,19 +51,133 @@ body {
   position: relative;
 }
 
-.right-first-section {
-  width: 100%;
-  height: 100%;
+.right-welcome {
   background-color: #363738;
   background-image: linear-gradient(
       rgba(35, 35, 35, 0.85),
       rgba(35, 35, 35, 0.85)
     ),
     url(../src/images/background-img2.png);
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
   background-position: 0 0, 50%;
   background-size: auto, cover;
-  align-items: center;
-  /* padding-top: 120px;
-  padding-bottom: 60px; */
+}
+
+.welcome-left-container {
+  width: 100%;
+  height: 40vh;
+  max-height: 100vh;
+  max-width: 670px;
+  align-items: flex-end;
   display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding-right: 50px;
+  padding-right: 70px;
+}
+
+.welcome-title-1 {
+  font-family: Noto Sans Mono, sans-serif;
+  font-weight: 900;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.left-sub-h1-1 {
+  color: #fcfcfc;
+  background-color: #363738;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 21px;
+  line-height: 2.5;
+  display: inline;
+}
+
+.left-sub-h1-2 {
+  color: #363738;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 36px;
+  line-height: 1;
+  display: inline;
+}
+
+.welcome-desctiption-1 {
+  width: 80%;
+  height: 100px;
+  text-align: right;
+  line-height: 1.2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 20px;
+  color: #363738;
+}
+
+.welcome-left-button {
+  background-color: rgba(35, 35, 35, 0.9);
+  color: #fcfcfd;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 14px 19px;
+  font-weight: 800;
+  font-family: Noto Sans Mono, sans-serif;
+  text-decoration: none;
+}
+
+.welcome-right-container {
+  width: 100%;
+  height: 40vh;
+  max-height: 100vh;
+  max-width: 670px;
+  flex-flow: column;
+  justify-content: flex-start;
+  display: flex;
+  color: #fcfcfd;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-right: 70px;
+}
+
+.welcome-title-2 {
+  font-family: Noto Sans Mono, sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.right-sub-h1-1 {
+  background-color: #fcfcfc;
+  color: #363738;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 2.5;
+  display: inline;
+}
+
+.welcome-description-2 {
+  width: 80%;
+  height: 100px;
+  line-height: 1.3;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 20px;
+}
+
+.welcome-right-button {
+  color: rgba(35, 35, 35, 0.9);
+  background-color: #fcfcfd;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 14px 19px;
+  font-weight: 800;
+  font-family: Noto Sans Mono, sans-serif;
+  text-decoration: none;
 }
