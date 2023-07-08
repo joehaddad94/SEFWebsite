@@ -567,7 +567,7 @@ body {
 .date {
   margin-left: 10px;
   font-weight: 900;
-  border: 1px solid red;
+
   padding: 4px;
 }
 
@@ -581,4 +581,102 @@ body {
   font-weight: 900;
   font-family: Noto Sans Mono, sans-serif;
   background-color: #232323;
+}
+
+.hire-talent-section {
+  background-color: #363738;
+  padding: 70px 0;
+}
+
+.hire-talent-container {
+  max-width: 1200px;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  margin: auto;
+}
+
+.hire-talent-header {
+  display: flex;
+}
+
+.hire-talent-title {
+  font-family: Noto Sans Mono, sans-serif;
+  padding: 10px 20px;
+  font-size: 26px;
+  font-weight: 900;
+  color: #fcfcfd;
+}
+
+.hire-talent-body {
+  border-radius: 20px;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 40px;
+  display: flex;
+  background-color: #232323;
+  margin-bottom: 20px;
+}
+
+.hire-talent-subtitle {
+  background-color: #363738;
+  padding: 15px 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fcfcfd;
+  text-align: left;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 16px;
+}
+
+.green {
+  color: #28eea7;
+  font-weight: 900;
+}
+
+.hire-talent-list {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #dcdee1;
+  font-family: Noto Sans Mono, sans-serif;
+}
+
+.hire-contact-us {
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: rgba(54, 55, 56, 0.75);
+  padding: 15px 20px;
+  font-weight: 800;
+  text-align: right;
+  align-self: stretch;
+  margin-top: 10px;
+}
+
+.hire-contact-button {
+  color: #fcfcfd;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hire-talent-footer {
+  display: flex;
+  border-radius: 20px;
+  flex-direction: row;
+  align-items: center;
+  color: #fcfcfd;
+  gap: 20px;
+  justify-content: flex-end;
+  background-color: #232323;
+  padding: 20px 40px;
+}
+
+.text-span {
+  font-family: Noto Sans, sans-serif;
+  font-size: 20px;
 }
