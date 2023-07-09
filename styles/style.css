@@ -848,11 +848,6 @@ body {
   font-size: 16px;
 }
 
-.green {
-  color: #28eea7;
-  font-weight: 900;
-}
-
 .hire-talent-list {
   font-size: 16px;
   line-height: 1.5;
@@ -1046,24 +1041,56 @@ body {
   height: auto;
   flex-direction: column;
   flex: 1;
-  justify-content: space-around;
-  align-items: flex-start;
+  /* justify-content: space-around; */
+  /* align-items: flex-start; */
   margin-top: 50px;
   display: flex;
+  gap: 20px;
 }
 
-.question-1 {
+.questions {
   height: auto;
   color: #fcfcfd;
   background-color: #232323;
   align-items: center;
-  padding: 20px;
+  padding: 15px 20px;
   display: flex;
-  width: 1200px;
+  width: 1150px;
   border-radius: 10px;
   border: 10px solid #232323;
 }
 
 .questions-layout {
   display: flex;
+  gap: 5px;
+}
+
+.down-arrow {
+  float: right;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.faqs-font {
+  color: #fcfcfd;
+  white-space: normal;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.4;
+  font-family: Noto Sans Mono, sans-serif;
+}
+
+.faqs-view-all {
+  text-align: right;
+  align-self: stretch;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  background-color: #232323;
+  font-size: 18px;
+  width: 1170px;
+}
+
+.green {
+  color: #28eea7;
+  font-weight: 900;
 }
