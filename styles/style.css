@@ -1321,3 +1321,90 @@ label {
   padding-left: 70px;
   padding-right: 70px;
 }
+
+.newsletter-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #363738;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1340px;
+  height: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.newsletter-submit-btn {
+  height: 45px;
+  background-color: #232323;
+  text-align: center;
+  margin-top: auto;
+  color: #fcfcfd;
+  text-transform: uppercase;
+  padding: 12px 20px 15px 20px;
+  font-weight: 800;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.email-input {
+  height: 45px;
+  width: 100%;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.footer-form-block-two {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  position: relative;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #fcfcfd;
+}
+
+.subsection-content-p {
+  font-family: Noto Sans Mono, sans-serif;
+  color: #a5a6a9;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.news-span {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.5;
+  font-family: Noto Sans Mono, sans-serif;
+}
+
+.footer-form-title {
+  font-family: Noto Sans Mono, sans-serif;
+  color: #fcfcfd;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.footer-form-container-two {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
