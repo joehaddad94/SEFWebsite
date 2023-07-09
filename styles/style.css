@@ -2,6 +2,71 @@ body {
   margin: 0;
 }
 
+.modal {
+  display: none;
+  z-index: 9999999;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  background-color: rgba(35, 35, 35, 0.9);
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  position: absolute;
+}
+
+.modal:target {
+  display: block;
+}
+
+.modal-navbar {
+  height: 50px;
+  max-width: 1340px;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  position: absolute;
+  top: 70px;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.close {
+  color: #aaa;
+  /* float: right; */
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+}
+
+.modal-menu-container {
+  max-width: 1340px;
+  min-height: 500px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 120px;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  position: absolute;
+  top: 190px;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
 .nav-container {
   height: 50px;
   max-width: 1200px;
