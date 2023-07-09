@@ -514,9 +514,7 @@ body {
 
 .milestones-body {
   height: 500px;
-  /* flex: 1; */
   justify-content: space-around;
-  /* align-items: flex-start; */
   margin-top: 50px;
   display: flex;
   gap: 20px;
@@ -896,4 +894,134 @@ body {
 .text-span {
   font-family: Noto Sans, sans-serif;
   font-size: 20px;
+}
+
+.testimonials {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.slider {
+  height: auto;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 50px;
+  display: flex;
+}
+
+.slider-body {
+  z-index: 1;
+  height: 100%;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.testimonial-slide {
+  background-color: #363738;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 20px 64px;
+  display: flex;
+  white-space: normal;
+  text-align: left;
+}
+
+.testimonial-content {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 40px;
+  display: flex;
+  white-space: normal;
+  text-align: left;
+}
+
+.testimonial-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
+}
+
+.quote-mark-img {
+  margin-bottom: 24px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.testimonial-quote {
+  color: #fcfcfd;
+  margin-bottom: 32px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 18px;
+}
+
+.testimonial-info {
+  align-items: center;
+  display: flex;
+}
+
+.testimonial-img-small {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.testimonial-author-name {
+  color: #fcfcfd;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.testimonial-status {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fcfcfd;
+  font-family: Noto Sans Mono, sans-serif;
+}
+
+.testimonial-details {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-footer {
+  height: 40px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.dot-img {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 10px;
 }
